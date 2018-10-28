@@ -6,6 +6,7 @@
   <head>
   	<style type="text/css">
 
+
       .introtext {
         font-size: 1em;
         color: #F2F2F2;
@@ -23,7 +24,16 @@
 
       .mylogo {
         padding-bottom: 10px;
-        max-width:60%;
+        max-width:40%;
+      }
+
+      .myart {
+        max-width: 100%;
+      }
+
+      #email-me {
+
+          padding-top: 60px;
       }
 
 
@@ -40,6 +50,9 @@
         .mylogo {
           max-width: 40%;
         }
+        .myart {
+          max-width: 100%;
+        }
 
       }
 
@@ -54,6 +67,9 @@
   		background-color: white;
   		position: relative;
   		top: -20px;
+      -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
   	}
 
 
@@ -72,27 +88,8 @@
 
     #grad {
       background-color: #e6e6e6; /* For browsers that do not support gradients */
-      background-image: linear-gradient(to bottom right, #59C173, #a17fe0, #5D26C1); /* Standard syntax (must be last) */
+      background-image: linear-gradient(to bottom right, #11998e, #38ef7d); /* Standard syntax (must be last) */
     }
-
-  	/* Safari 4.0 - 8.0 */
-	<!-- @-webkit-keyframes example {
-		  0%   {background-color:  #ffff00;}
-	    25%  {background-color: #ffff00;}
-	    50%  {background-color:  #ffff00;}
-	    100% {background-color: #ffff00;}
-
-	}
-
-	/* Standard syntax */
-	@keyframes example {
-    0%   {background-color:  #ffff00;}
-    25%  {background-color:  #ffff00;}
-    50%  {background-color:  #ffff00;}
-    100% {background-color:  #ffff00;} -->
-
-
-
 
 }
   	</style>
@@ -112,18 +109,18 @@
 </div>
 
 
-<div class="jumbotron text-center mybanner" style="padding-top: 70px">
+<div class="jumbotron text-center mybanner" style="border: 5px solid #FFD62A; ">
 
   		<h1><span class="align-bottom intro" style="font-family: "Comic Sans MS", cursive, sans-serif;">
   		Designer, Full-Stack web developer & an Artist
   		</span></h1>
   		<p class="lead" style="font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif"> I design and code stunning simple things on web, and I do that everyday.</p>
-  	  <img class="img-fluid" style="max-width: 40%; padding-top: 30px;" src="\static\images\Artboard1.png"  alt="artboard">
+  	  <img class="myart" src="\static\images\Artboard1.png"  alt="artboard">
 
   	  <div class="text-center" style="text-align: center;">
  		     <img style="max-width: 80%; padding: 40px; padding-bottom: 0" src="/static/images/hero.png" alt="mobile-friendly">
  		      <div class="surface" id="grad">
- 			        <p class="hiitsme">Hi, I'm Yudi and I'm Glad you're here.</p>
+ 			        <p class="hiitsme">Hi, I'm Yudhishthir, <br>A Full-stack web developer from Bangalore, India <br>and I'm Glad you're here.</p>
  			        <div class="intro" style="text-align: center; padding-bottom: 30px; font-family: Bookman">
  				           <p class="introtext">Since beginning my journey as a freelance designer nearly 2 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually improving my chops.</p>
  			        </div>
@@ -137,7 +134,18 @@
 			    	<img class="mylogo" src="\static\images\codeicon.png"  alt="artboard">
 			      <p class="lead" style="padding:10px;">Full-Stack Web Developer</p>
 			      <p>I tend to structure all my code from scratch and play with things for bringing ideas to life in the browser.</p>
-			      <p style="padding-bottom: 20px">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+			      <p>
+                <em style="color:#FF2F2F">Tools I use:</em>
+                <ul class="list-unstyled">
+                    <li>NodeJS</li>
+                    <li>PHP</li>
+                    <li>Python (Flask)</li>
+                    <li>APIs</li>
+                    <li>MySQL, MongoDB</li>
+                    <li>Github</li>
+                </ul>
+            </p>
+
 			    </div>
 
           <div class="col-sm-4 workrow">
@@ -145,8 +153,17 @@
 			      <p class="lead" style="padding:10px;">I love to design!</p>
 			      <p>I love simple, clean design patterns, and thoughtful interactions for UI/UX</p>
             <p>All projects have mobile-first designs hence they are completely responsive.</p>
-			      <p style="padding-bottom: 20px;">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-			    </div>
+            <p>
+                <em style="color:#FF2F2F">Tools I use:</em>
+                <ul class="list-unstyled">
+                    <li>HTML/CSS</li>
+                    <li>ReactJS</li>
+                    <li>Bootstrap</li>
+                    <li>Flexbox</li>
+                    <li>Material Design</li>
+                </ul>
+            </p>
+  			    </div>
 
 
 			    <div class="col-sm-4 workrow">
@@ -154,7 +171,14 @@
 			      <p class="lead" style="padding:10px;">Artist by heart.</p>
 			      <p>I genuinely care about art and am constantly working with new designers to work on beautiful crafts</p>
 			      <p>All the illustrations/pictures in my projects are made all by me.</p>
-            <p style="padding-bottom: 20px">I am a part time photographer and a full-time computer programmer, always trying to integrate the two and make something worth looking at.</p>
+            <p>I am a part time photographer and a full-time computer programmer, always trying to integrate the two and make something worth looking at.</p>
+            <p>
+                <em style="color:#FF2F2F">Tools I use:</em>
+                <ul class="list-unstyled">
+                    <li>Adobe Illustrator</li>
+                    <li>Pen and paper</li>
+                </ul>
+            </p>
 			    </div>
 
 			  </div>
@@ -162,6 +186,22 @@
 
  	   </div>
 	</div>
+  <div class="container">
+      <div class="row">
+        <div class="col-sm-12" id="email-me" style="padding-bottom:50px;">
+            <p class="lead" style="font-size: 2em;">Interested in doing a project together?</p>
+            <button  type="button" class="btn btn-default" style="float: center; font-size: 1.2em; ">Email me!</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12" style="padding-top: 50px;border-top: 1px solid black;">
+            Copyright Yudhishthir Singh 2018
+        </div>
+      </div>
+  </div>
+
+
 </div>
 <!-- JUMBOTRON ENDS HERE -->
 
